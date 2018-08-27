@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84BF77B22132F5E2000BAEF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF77B12132F5E2000BAEF1 /* AppDelegate.m */; };
+		84BF77B52132F5E2000BAEF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF77B42132F5E2000BAEF1 /* ViewController.m */; };
+		84BF77B82132F5E2000BAEF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BF77B62132F5E2000BAEF1 /* Main.storyboard */; };
+		84BF77BA2132F5E3000BAEF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BF77B92132F5E3000BAEF1 /* Assets.xcassets */; };
+		84BF77BD2132F5E3000BAEF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BF77BB2132F5E3000BAEF1 /* LaunchScreen.storyboard */; };
+		84BF77C02132F5E3000BAEF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF77BF2132F5E3000BAEF1 /* main.m */; };
+		84BF77CA2132F5E4000BAEF1 /* NGPageLoadingSpeedDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF77C92132F5E4000BAEF1 /* NGPageLoadingSpeedDemoTests.m */; };
+		84BF77D52132F5E4000BAEF1 /* NGPageLoadingSpeedDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF77D42132F5E4000BAEF1 /* NGPageLoadingSpeedDemoUITests.m */; };
+		E814483CBB35DFBADFEBB7B3 /* libPods-NGPageLoadingSpeedDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0877C6C637ECC3AD75EDEF5A /* libPods-NGPageLoadingSpeedDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84BF77C62132F5E4000BAEF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84BF77A52132F5E2000BAEF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84BF77AC2132F5E2000BAEF1;
+			remoteInfo = NGPageLoadingSpeedDemo;
+		};
+		84BF77D12132F5E4000BAEF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84BF77A52132F5E2000BAEF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84BF77AC2132F5E2000BAEF1;
+			remoteInfo = NGPageLoadingSpeedDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0877C6C637ECC3AD75EDEF5A /* libPods-NGPageLoadingSpeedDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NGPageLoadingSpeedDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BF77AD2132F5E2000BAEF1 /* NGPageLoadingSpeedDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NGPageLoadingSpeedDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BF77B02132F5E2000BAEF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84BF77B12132F5E2000BAEF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84BF77B32132F5E2000BAEF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84BF77B42132F5E2000BAEF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84BF77B72132F5E2000BAEF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84BF77B92132F5E3000BAEF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84BF77BC2132F5E3000BAEF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84BF77BE2132F5E3000BAEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BF77BF2132F5E3000BAEF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84BF77C52132F5E4000BAEF1 /* NGPageLoadingSpeedDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NGPageLoadingSpeedDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BF77C92132F5E4000BAEF1 /* NGPageLoadingSpeedDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGPageLoadingSpeedDemoTests.m; sourceTree = "<group>"; };
+		84BF77CB2132F5E4000BAEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BF77D02132F5E4000BAEF1 /* NGPageLoadingSpeedDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NGPageLoadingSpeedDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BF77D42132F5E4000BAEF1 /* NGPageLoadingSpeedDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGPageLoadingSpeedDemoUITests.m; sourceTree = "<group>"; };
+		84BF77D62132F5E4000BAEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5AB5711E7D882141A1A6A69 /* Pods-NGPageLoadingSpeedDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGPageLoadingSpeedDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NGPageLoadingSpeedDemo/Pods-NGPageLoadingSpeedDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E6067A1C1F911227D1862332 /* Pods-NGPageLoadingSpeedDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGPageLoadingSpeedDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NGPageLoadingSpeedDemo/Pods-NGPageLoadingSpeedDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84BF77AA2132F5E2000BAEF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E814483CBB35DFBADFEBB7B3 /* libPods-NGPageLoadingSpeedDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BF77C22132F5E4000BAEF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BF77CD2132F5E4000BAEF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FE9ED966866FB32665E045E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5AB5711E7D882141A1A6A69 /* Pods-NGPageLoadingSpeedDemo.debug.xcconfig */,
+				E6067A1C1F911227D1862332 /* Pods-NGPageLoadingSpeedDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6CA9FA449366B011E74986DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0877C6C637ECC3AD75EDEF5A /* libPods-NGPageLoadingSpeedDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84BF77A42132F5E2000BAEF1 = {
+			isa = PBXGroup;
+			children = (
+				84BF77AF2132F5E2000BAEF1 /* NGPageLoadingSpeedDemo */,
+				84BF77C82132F5E4000BAEF1 /* NGPageLoadingSpeedDemoTests */,
+				84BF77D32132F5E4000BAEF1 /* NGPageLoadingSpeedDemoUITests */,
+				84BF77AE2132F5E2000BAEF1 /* Products */,
+				4FE9ED966866FB32665E045E /* Pods */,
+				6CA9FA449366B011E74986DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84BF77AE2132F5E2000BAEF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84BF77AD2132F5E2000BAEF1 /* NGPageLoadingSpeedDemo.app */,
+				84BF77C52132F5E4000BAEF1 /* NGPageLoadingSpeedDemoTests.xctest */,
+				84BF77D02132F5E4000BAEF1 /* NGPageLoadingSpeedDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84BF77AF2132F5E2000BAEF1 /* NGPageLoadingSpeedDemo */ = {
+			isa = PBXGroup;
+			children = (
+				84BF77B02132F5E2000BAEF1 /* AppDelegate.h */,
+				84BF77B12132F5E2000BAEF1 /* AppDelegate.m */,
+				84BF77B32132F5E2000BAEF1 /* ViewController.h */,
+				84BF77B42132F5E2000BAEF1 /* ViewController.m */,
+				84BF77B62132F5E2000BAEF1 /* Main.storyboard */,
+				84BF77B92132F5E3000BAEF1 /* Assets.xcassets */,
+				84BF77BB2132F5E3000BAEF1 /* LaunchScreen.storyboard */,
+				84BF77BE2132F5E3000BAEF1 /* Info.plist */,
+				84BF77BF2132F5E3000BAEF1 /* main.m */,
+			);
+			path = NGPageLoadingSpeedDemo;
+			sourceTree = "<group>";
+		};
+		84BF77C82132F5E4000BAEF1 /* NGPageLoadingSpeedDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				84BF77C92132F5E4000BAEF1 /* NGPageLoadingSpeedDemoTests.m */,
+				84BF77CB2132F5E4000BAEF1 /* Info.plist */,
+			);
+			path = NGPageLoadingSpeedDemoTests;
+			sourceTree = "<group>";
+		};
+		84BF77D32132F5E4000BAEF1 /* NGPageLoadingSpeedDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84BF77D42132F5E4000BAEF1 /* NGPageLoadingSpeedDemoUITests.m */,
+				84BF77D62132F5E4000BAEF1 /* Info.plist */,
+			);
+			path = NGPageLoadingSpeedDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84BF77AC2132F5E2000BAEF1 /* NGPageLoadingSpeedDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BF77D92132F5E4000BAEF1 /* Build configuration list for PBXNativeTarget "NGPageLoadingSpeedDemo" */;
+			buildPhases = (
+				5A1DD830EB8708EF473C2158 /* [CP] Check Pods Manifest.lock */,
+				84BF77A92132F5E2000BAEF1 /* Sources */,
+				84BF77AA2132F5E2000BAEF1 /* Frameworks */,
+				84BF77AB2132F5E2000BAEF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NGPageLoadingSpeedDemo;
+			productName = NGPageLoadingSpeedDemo;
+			productReference = 84BF77AD2132F5E2000BAEF1 /* NGPageLoadingSpeedDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84BF77C42132F5E4000BAEF1 /* NGPageLoadingSpeedDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BF77DC2132F5E4000BAEF1 /* Build configuration list for PBXNativeTarget "NGPageLoadingSpeedDemoTests" */;
+			buildPhases = (
+				84BF77C12132F5E4000BAEF1 /* Sources */,
+				84BF77C22132F5E4000BAEF1 /* Frameworks */,
+				84BF77C32132F5E4000BAEF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84BF77C72132F5E4000BAEF1 /* PBXTargetDependency */,
+			);
+			name = NGPageLoadingSpeedDemoTests;
+			productName = NGPageLoadingSpeedDemoTests;
+			productReference = 84BF77C52132F5E4000BAEF1 /* NGPageLoadingSpeedDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84BF77CF2132F5E4000BAEF1 /* NGPageLoadingSpeedDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BF77DF2132F5E4000BAEF1 /* Build configuration list for PBXNativeTarget "NGPageLoadingSpeedDemoUITests" */;
+			buildPhases = (
+				84BF77CC2132F5E4000BAEF1 /* Sources */,
+				84BF77CD2132F5E4000BAEF1 /* Frameworks */,
+				84BF77CE2132F5E4000BAEF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84BF77D22132F5E4000BAEF1 /* PBXTargetDependency */,
+			);
+			name = NGPageLoadingSpeedDemoUITests;
+			productName = NGPageLoadingSpeedDemoUITests;
+			productReference = 84BF77D02132F5E4000BAEF1 /* NGPageLoadingSpeedDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84BF77A52132F5E2000BAEF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ngmmxh;
+				TargetAttributes = {
+					84BF77AC2132F5E2000BAEF1 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					84BF77C42132F5E4000BAEF1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 84BF77AC2132F5E2000BAEF1;
+					};
+					84BF77CF2132F5E4000BAEF1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 84BF77AC2132F5E2000BAEF1;
+					};
+				};
+			};
+			buildConfigurationList = 84BF77A82132F5E2000BAEF1 /* Build configuration list for PBXProject "NGPageLoadingSpeedDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84BF77A42132F5E2000BAEF1;
+			productRefGroup = 84BF77AE2132F5E2000BAEF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84BF77AC2132F5E2000BAEF1 /* NGPageLoadingSpeedDemo */,
+				84BF77C42132F5E4000BAEF1 /* NGPageLoadingSpeedDemoTests */,
+				84BF77CF2132F5E4000BAEF1 /* NGPageLoadingSpeedDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84BF77AB2132F5E2000BAEF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BF77BD2132F5E3000BAEF1 /* LaunchScreen.storyboard in Resources */,
+				84BF77BA2132F5E3000BAEF1 /* Assets.xcassets in Resources */,
+				84BF77B82132F5E2000BAEF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BF77C32132F5E4000BAEF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BF77CE2132F5E4000BAEF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A1DD830EB8708EF473C2158 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NGPageLoadingSpeedDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84BF77A92132F5E2000BAEF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BF77B52132F5E2000BAEF1 /* ViewController.m in Sources */,
+				84BF77C02132F5E3000BAEF1 /* main.m in Sources */,
+				84BF77B22132F5E2000BAEF1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BF77C12132F5E4000BAEF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BF77CA2132F5E4000BAEF1 /* NGPageLoadingSpeedDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BF77CC2132F5E4000BAEF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BF77D52132F5E4000BAEF1 /* NGPageLoadingSpeedDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84BF77C72132F5E4000BAEF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84BF77AC2132F5E2000BAEF1 /* NGPageLoadingSpeedDemo */;
+			targetProxy = 84BF77C62132F5E4000BAEF1 /* PBXContainerItemProxy */;
+		};
+		84BF77D22132F5E4000BAEF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84BF77AC2132F5E2000BAEF1 /* NGPageLoadingSpeedDemo */;
+			targetProxy = 84BF77D12132F5E4000BAEF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84BF77B62132F5E2000BAEF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BF77B72132F5E2000BAEF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84BF77BB2132F5E3000BAEF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BF77BC2132F5E3000BAEF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84BF77D72132F5E4000BAEF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84BF77D82132F5E4000BAEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84BF77DA2132F5E4000BAEF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5AB5711E7D882141A1A6A69 /* Pods-NGPageLoadingSpeedDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NGPageLoadingSpeedDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngmm.NGPageLoadingSpeedDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84BF77DB2132F5E4000BAEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6067A1C1F911227D1862332 /* Pods-NGPageLoadingSpeedDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NGPageLoadingSpeedDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngmm.NGPageLoadingSpeedDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84BF77DD2132F5E4000BAEF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NGPageLoadingSpeedDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngmm.NGPageLoadingSpeedDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NGPageLoadingSpeedDemo.app/NGPageLoadingSpeedDemo";
+			};
+			name = Debug;
+		};
+		84BF77DE2132F5E4000BAEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NGPageLoadingSpeedDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngmm.NGPageLoadingSpeedDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NGPageLoadingSpeedDemo.app/NGPageLoadingSpeedDemo";
+			};
+			name = Release;
+		};
+		84BF77E02132F5E4000BAEF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NGPageLoadingSpeedDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngmm.NGPageLoadingSpeedDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NGPageLoadingSpeedDemo;
+			};
+			name = Debug;
+		};
+		84BF77E12132F5E4000BAEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NGPageLoadingSpeedDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngmm.NGPageLoadingSpeedDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NGPageLoadingSpeedDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84BF77A82132F5E2000BAEF1 /* Build configuration list for PBXProject "NGPageLoadingSpeedDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BF77D72132F5E4000BAEF1 /* Debug */,
+				84BF77D82132F5E4000BAEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BF77D92132F5E4000BAEF1 /* Build configuration list for PBXNativeTarget "NGPageLoadingSpeedDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BF77DA2132F5E4000BAEF1 /* Debug */,
+				84BF77DB2132F5E4000BAEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BF77DC2132F5E4000BAEF1 /* Build configuration list for PBXNativeTarget "NGPageLoadingSpeedDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BF77DD2132F5E4000BAEF1 /* Debug */,
+				84BF77DE2132F5E4000BAEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BF77DF2132F5E4000BAEF1 /* Build configuration list for PBXNativeTarget "NGPageLoadingSpeedDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BF77E02132F5E4000BAEF1 /* Debug */,
+				84BF77E12132F5E4000BAEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84BF77A52132F5E2000BAEF1 /* Project object */;
+}

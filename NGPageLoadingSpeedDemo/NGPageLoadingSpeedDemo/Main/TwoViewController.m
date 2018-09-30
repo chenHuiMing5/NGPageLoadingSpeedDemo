@@ -1,34 +1,26 @@
 //
-//  FirstViewController.m
-//  NGPageLoadingDemo
+//  TwoViewController.m
+//  NGPageLoadingSpeedDemo
 //
-//  Created by ngmmxh on 2018/8/26.
+//  Created by ngmmxh on 2018/9/30.
 //  Copyright © 2018年 ngmmxh. All rights reserved.
 //
 
-#import "FirstViewController.h"
 #import "TwoViewController.h"
-@interface FirstViewController ()
+
+@interface TwoViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation TwoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    UIButton *btnEnter = [UIButton buttonWithType:UIButtonTypeCustom];
-    btnEnter.frame = CGRectMake(100, 100, 100, 100);
-    btnEnter.backgroundColor = [UIColor redColor];
-    [btnEnter addTarget:self action:@selector(onClickBtnEnter) forControlEvents:UIControlEventTouchUpInside];
-    
-    [self.view addSubview:btnEnter];
+
+    // Do any additional setup after loading the view.
 }
 
--(void)onClickBtnEnter{
-    TwoViewController *twoVC = [[TwoViewController alloc] init];
-    [self.navigationController pushViewController:twoVC animated:YES];
-}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

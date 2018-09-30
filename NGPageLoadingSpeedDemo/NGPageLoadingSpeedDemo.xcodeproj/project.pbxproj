@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841008F72160CB1E004E2DD4 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841008F62160CB1E004E2DD4 /* TwoViewController.m */; };
 		84BA19182133A04500F0ACF6 /* UIViewController+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA19122133A04500F0ACF6 /* UIViewController+Swizzle.m */; };
 		84BA19192133A04500F0ACF6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA19162133A04500F0ACF6 /* FirstViewController.m */; };
 		84BA191A2133A04500F0ACF6 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA19172133A04500F0ACF6 /* MainNavigationController.m */; };
 		84BF77B22132F5E2000BAEF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF77B12132F5E2000BAEF1 /* AppDelegate.m */; };
 		84BF77BA2132F5E3000BAEF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BF77B92132F5E3000BAEF1 /* Assets.xcassets */; };
-		84BF77BD2132F5E3000BAEF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BF77BB2132F5E3000BAEF1 /* LaunchScreen.storyboard */; };
 		84BF77C02132F5E3000BAEF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF77BF2132F5E3000BAEF1 /* main.m */; };
 		84BF77CA2132F5E4000BAEF1 /* NGPageLoadingSpeedDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF77C92132F5E4000BAEF1 /* NGPageLoadingSpeedDemoTests.m */; };
 		84BF77D52132F5E4000BAEF1 /* NGPageLoadingSpeedDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF77D42132F5E4000BAEF1 /* NGPageLoadingSpeedDemoUITests.m */; };
@@ -38,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		0877C6C637ECC3AD75EDEF5A /* libPods-NGPageLoadingSpeedDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NGPageLoadingSpeedDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		841008F52160CB1E004E2DD4 /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		841008F62160CB1E004E2DD4 /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 		84BA19122133A04500F0ACF6 /* UIViewController+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzle.m"; sourceTree = "<group>"; };
 		84BA19132133A04500F0ACF6 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		84BA19142133A04500F0ACF6 /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
@@ -48,7 +50,6 @@
 		84BF77B02132F5E2000BAEF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84BF77B12132F5E2000BAEF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		84BF77B92132F5E3000BAEF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84BF77BC2132F5E3000BAEF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84BF77BE2132F5E3000BAEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84BF77BF2132F5E3000BAEF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84BF77C52132F5E4000BAEF1 /* NGPageLoadingSpeedDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NGPageLoadingSpeedDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +114,8 @@
 				84BA19172133A04500F0ACF6 /* MainNavigationController.m */,
 				84BA19132133A04500F0ACF6 /* FirstViewController.h */,
 				84BA19162133A04500F0ACF6 /* FirstViewController.m */,
+				841008F52160CB1E004E2DD4 /* TwoViewController.h */,
+				841008F62160CB1E004E2DD4 /* TwoViewController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -146,7 +149,6 @@
 				84BF77B12132F5E2000BAEF1 /* AppDelegate.m */,
 				84BA19112133A04500F0ACF6 /* Main */,
 				84BF77B92132F5E3000BAEF1 /* Assets.xcassets */,
-				84BF77BB2132F5E3000BAEF1 /* LaunchScreen.storyboard */,
 				84BF77BE2132F5E3000BAEF1 /* Info.plist */,
 				84BF77BF2132F5E3000BAEF1 /* main.m */,
 			);
@@ -275,7 +277,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84BF77BD2132F5E3000BAEF1 /* LaunchScreen.storyboard in Resources */,
 				84BF77BA2132F5E3000BAEF1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +326,7 @@
 				84BF77C02132F5E3000BAEF1 /* main.m in Sources */,
 				84BA19182133A04500F0ACF6 /* UIViewController+Swizzle.m in Sources */,
 				84BF77B22132F5E2000BAEF1 /* AppDelegate.m in Sources */,
+				841008F72160CB1E004E2DD4 /* TwoViewController.m in Sources */,
 				84BA19192133A04500F0ACF6 /* FirstViewController.m in Sources */,
 				84BA191A2133A04500F0ACF6 /* MainNavigationController.m in Sources */,
 			);
@@ -360,17 +362,6 @@
 			targetProxy = 84BF77D12132F5E4000BAEF1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		84BF77BB2132F5E3000BAEF1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84BF77BC2132F5E3000BAEF1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		84BF77D72132F5E4000BAEF1 /* Debug */ = {
@@ -489,7 +480,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCWL597HJ7;
 				INFOPLIST_FILE = NGPageLoadingSpeedDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -506,7 +499,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCWL597HJ7;
 				INFOPLIST_FILE = NGPageLoadingSpeedDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
